@@ -1,0 +1,44 @@
+ prior = gammaPriorExpandParam(prior, params)
+
+ [params, names] = gammaPriorExtractParam(prior)
+
+ g = gammaPriorGradient(prior, x)
+
+ l = gammaPriorLogProb(prior, x)
+
+ prior = gammaPriorParamInit(prior)
+
+ y = gaussianPrior(x, transform)
+
+ prior = gaussianPriorExpandParam(prior, params)
+
+ [params, names] = gaussianPriorExtractParam(prior)
+
+ g = gaussianPriorGradient(prior, x)
+
+ l = gaussianPriorLogProb(prior, x)
+
+ prior = gaussianPriorParamInit(prior)
+
+ prior = invgammaPriorExpandParam(prior, params)
+
+ [params, names] = invgammaPriorExtractParam(prior)
+
+ g = invgammaPriorGradient(prior, x)
+
+ l = invgammaPriorLogProb(prior, x)
+
+ prior = invgammaPriorParamInit(prior)
+
+ prior = priorExpandParam(prior, params)
+
+ [params, names] = priorExtractParam(prior)
+
+ g = priorGradient(prior, params)
+
+ l = priorLogProb(prior, x)
+
+ prior = priorParamInit(prior)
+
+ prior = priorTest(priorType);
+

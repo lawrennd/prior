@@ -1,0 +1,24 @@
+File versionlist for the PRIOR toolbox version 0.1 Saturday, June 12, 2004 at 14:13:19
+
+gammaPriorExpandParam.m	 vs 	 
+gammaPriorExtractParam.m	 vs 	 
+gammaPriorGradient.m	 vs 	 
+gammaPriorLogProb.m	 vs 	 
+gammaPriorParamInit.m	 vs 	 
+gaussianPrior.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+gaussianPriorExpandParam.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+gaussianPriorExtractParam.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+gaussianPriorGradient.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+gaussianPriorLogProb.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+gaussianPriorParamInit.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+invgammaPriorExpandParam.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+invgammaPriorExtractParam.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+invgammaPriorGradient.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+invgammaPriorLogProb.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+invgammaPriorParamInit.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+priorExpandParam.m	 vs 1.2	 Sat Jun 12 13:11:41 2004
+priorExtractParam.m	 vs 	 
+priorGradient.m	 vs 	 
+priorLogProb.m	 vs 	 
+priorParamInit.m	 vs 	 
+priorTest.m	 vs 	 
