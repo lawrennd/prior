@@ -38,12 +38,26 @@
 
 <p><strong>Current release is 0.22</strong>.</p>
 
-<p>As well as downloading the PRIOR software you need to obtain the toolboxes specified below. <strong>These can be downloaded using the <em>same</em> password you get from registering for the PRIOR software.</strong></p>
+<p>As well as downloading the PRIOR software you need to obtain the toolboxes specified below. </p>
 
-<p>|-------------------------------------------|-------------|
-| <strong>Toolbox</strong>                               | <strong>Version</strong> |
-| <a href="/optimi/downloadFiles/vrs0p132">OPTIMI</a>  | 0.132       |
-| <a href="/ndlutil/downloadFiles/vrs0p16">NDLUTIL</a> | 0.16        |</p>
+<table>
+<thead>
+<tr>
+<th><strong>Toolbox</strong></th>
+<th><strong>Version</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/optimi/downloadFiles/vrs0p132">OPTIMI</a></td>
+<td>0.132</td>
+</tr>
+<tr>
+<td><a href="/ndlutil/downloadFiles/vrs0p16">NDLUTIL</a></td>
+<td>0.16</td>
+</tr>
+</tbody>
+</table>
 
 <h2>
 <a id="release-notes" class="anchor" href="#release-notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Release Notes</h2>
@@ -58,7 +72,7 @@
 
 <p>This toolbox allows computation of several different prior distributions and their gradients. You can add distributions to the toolbox by creating versions of the relevant files. Once added, they can be tested using the <code>priorTest</code>. For example you can test the Gaussian prior</p>
 
-<p><code>&gt;&gt; priorTest('gaussian')</code></p>
+<div class="highlight highlight-matlab"><pre><span class="pl-k">&gt;&gt; </span>priorTest(<span class="pl-s"><span class="pl-pds">'</span>gaussian<span class="pl-pds">'</span></span>)</pre></div>
 
 <p>There are several prior models implemented, the mains ones that are being maintained for the latest release are:</p>
 
